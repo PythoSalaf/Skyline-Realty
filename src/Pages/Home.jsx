@@ -1,11 +1,12 @@
 import React from "react";
-import { Hero, Steps } from "../Components";
+import { FeaturedProperty, Hero, Steps } from "../Components";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <Steps />
+      <FeaturedProperty />
     </div>
   );
 };

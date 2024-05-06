@@ -14,7 +14,7 @@ const Hero = () => {
             From luxurious estates to cozy apartments, <br /> we guide you every
             step of the way.
           </p>
-          <div className="bg-white rounded-xl  w-[90%] mx-auto md:mx-0 py-4 ">
+          <div className="bg-white rounded-xl w-[95%] md:w-[90%] mx-auto md:mx-0 py-4 ">
             <div className="flex items-start justify-between w-[95%] mx-auto ">
               <Button
                 btnName="Buy"
