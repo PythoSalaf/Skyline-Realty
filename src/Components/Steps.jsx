@@ -53,7 +53,7 @@ const Steps = () => {
               key={item.id}
             >
               <div className="w-[80%] mx-auto ">
-                <img src={item.image} alt="s" />
+                <img src={item.image} alt={item.title} />
                 <h3 className="font-bold text-xl mt-6 mb-3 md:text-2xl lg:text-3xl">
                   {item.title}
                 </h3>
