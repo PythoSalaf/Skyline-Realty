@@ -9,7 +9,7 @@ import Button from "./Button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="bg-white w-full h-[70px] flex items-center fixed top-0">
+    <div className="bg-white w-full h-[70px] flex items-center fixed z-40 top-0">
       <div className="flex items-center  justify-between w-[96%]  md:w-[94%] lg:w-[90%] mx-auto ">
         <Link to="/" className="flex items-center gap-[2px] md:gap-1">
           <img
@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/listing"
               className="font-semibold md:text-lg lg:text-2xl hover:text-blue-600"
             >
               Listing
@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/agents"
               className="font-semibold md:text-lg lg:text-2xl hover:text-blue-600"
             >
               Agents
@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/properties"
               className="font-semibold md:text-lg lg:text-2xl hover:text-blue-600"
             >
               Properties
@@ -56,7 +56,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/blog"
               className="font-semibold md:text-lg lg:text-2xl hover:text-blue-600"
             >
               Blog

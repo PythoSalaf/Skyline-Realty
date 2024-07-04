@@ -1,16 +1,29 @@
-import { House1 } from "../Assets";
 import { IoMdSwap } from "react-icons/io";
 import { IoSearch, IoBedOutline } from "react-icons/io5";
 import { FaRegBookmark } from "react-icons/fa";
 import { FaLocationDot, FaShower } from "react-icons/fa6";
 import { LiaVectorSquareSolid } from "react-icons/lia";
-const FeatureCard = () => {
+import Button from "./Button";
+import { useNavigate } from "react-router-dom";
+const FeatureCard = ({
+  address,
+  beds,
+  baths,
+  sqft,
+  price,
+  image,
+  id,
+  location,
+}) => {
+  const navigate = useNavigate();
   return (
-    <div className="shadow-primaryCustom bg-white rounded-2xl w-[90%] mx-auto md:mx-0 md:w-[300px] lg:w-[350px] p-3 ">
+    <div className="shadow-primaryCustom bg-white rounded-2xl w-[90%] mx-auto md:mx-0 md:w-full p-3 ">
       <div className="relative w-full">
-        <img src={House1} alt="" />
+        <img src={image} alt={`icon-${id}`} className="h-[200px] w-full" />
         <div className="w-full px-4 flex items-center justify-between  bottom-[10px] absolute  ">
-          <h4 className="w-full text-lg md:text-xl text-white">#24,000</h4>
+          <h4 className="w-full text-lg md:text-xl font-sans text-white">
+            #{price}
+          </h4>
           <div className="flex gap-3 items-center justify-end  w-full">
             <div className="bg-black rounded-full w-8 h-8 flex items-center opacity-75 cursor-pointer text-white justify-center">
               <IoMdSwap />
@@ -24,26 +37,32 @@ const FeatureCard = () => {
           </div>
         </div>
       </div>
-      <h2>155 Dalla Homestay</h2>
-      <div className=" flex items-center gap-1">
+      <h2>{address} </h2>
+      <div className=" flex items-center py-2 gap-x-1">
         <FaLocationDot />
-        <p>2612 Macarthur Boulevard, Oakland</p>
+        <h3>{location}</h3>
       </div>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-1">
           <IoBedOutline />
-          <p>Beds 4</p>
+          <p className="font-semibold text-base md:text-lg">Beds {beds}</p>
         </div>
         <div className="flex items-center gap-1">
           <FaShower />
-          <p>Baths 4</p>
+          <p className="font-semibold text-base md:text-lg">Baths {baths}</p>
         </div>
         <div className="flex items-center gap-1">
           <LiaVectorSquareSolid />
-          <p>SqFt 4,000</p>
+          <p className="font-semibold text-base md:text-lg">SqFt {sqft}</p>
         </div>
       </div>
-      <hr className="mt-3" />
+      <div className="w-full flex items-center justify-center mt-10">
+        <Button
+          btnName="View Details"
+          btnStyle="bg-black w-full text-white py-1 rounded-2xl hover:bg-primary"
+          btnHandle={() => navigate(`/details`)}
+        />
+      </div>
     </div>
   );
 };

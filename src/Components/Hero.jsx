@@ -49,7 +49,7 @@ const Hero = () => {
             <div className=" flex items-center justify-center mt-6">
               <Button
                 btnName="Search"
-                btnStyle="w-[60%]  bg-primary text-white py-[6px] rounded-lg text-lg md:text-xl"
+                btnStyle="w-[60%]  bg-primary text-white py-[6px] rounded-3xl text-base md:text-xl"
               />
             </div>
           </div>

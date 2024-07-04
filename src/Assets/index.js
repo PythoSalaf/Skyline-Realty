@@ -9,6 +9,10 @@ import House2 from "../Assets/Images/house2.png";
 import House3 from "../Assets/Images/house3.png";
 import House4 from "../Assets/Images/house4.png";
 import House5 from "../Assets/Images/house5.png";
+import Process1 from "../Assets/Images/process1.png";
+import Process2 from "../Assets/Images/process2.png";
+import Process3 from "../Assets/Images/process3.png";
+import Process4 from "../Assets/Images/process4.png";
 export {
   Logo,
   Hero1,
@@ -21,4 +25,8 @@ export {
   House3,
   House4,
   House5,
+  Process1,
+  Process2,
+  Process3,
+  Process4,
 };
