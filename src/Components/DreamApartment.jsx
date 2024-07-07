@@ -18,7 +18,7 @@ const DreamApartment = () => {
           </button>
         </div>
         <div className="w-full flex flex-col ">
-          <div className="flex flex-1 ">
+          <div className="flex flex-1 w-full">
             <img
               src={Process1}
               alt="House"

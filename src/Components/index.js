@@ -4,4 +4,6 @@ export { default as Hero } from "../Components/Hero";
 export { default as Steps } from "../Components/Steps";
 export { default as FeaturedProperty } from "../Components/FeaturedProperty";
 export { default as FeatureCard } from "../Components/FeatureCard";
+export { default as ReviewCard } from "../Components/ReviewCard";
 export { default as DreamApartment } from "../Components/DreamApartment";
+export { default as CustomerReview } from "../Components/CustomerReview";

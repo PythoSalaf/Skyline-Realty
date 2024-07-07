@@ -13,6 +13,7 @@ import Process1 from "../Assets/Images/process1.png";
 import Process2 from "../Assets/Images/process2.png";
 import Process3 from "../Assets/Images/process3.png";
 import Process4 from "../Assets/Images/process4.png";
+import Profile from "../Assets/Images/profile.png";
 export {
   Logo,
   Hero1,
@@ -29,4 +30,5 @@ export {
   Process2,
   Process3,
   Process4,
+  Profile,
 };

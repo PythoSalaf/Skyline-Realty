@@ -1,5 +1,11 @@
 import React from "react";
-import { DreamApartment, FeaturedProperty, Hero, Steps } from "../Components";
+import {
+  CustomerReview,
+  DreamApartment,
+  FeaturedProperty,
+  Hero,
+  Steps,
+} from "../Components";
 
 const Home = () => {
   return (
@@ -7,7 +13,8 @@ const Home = () => {
       <Hero />
       <Steps />
       <FeaturedProperty />
-      <DreamApartment />
+      {/* <DreamApartment /> */}
+      <CustomerReview />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import { House1, House2, House3, House4, House5 } from "../Assets";
+import { House1, House2, House3, House4, House5, Profile } from "../Assets";
 
 export const Properties = [
   {
@@ -108,5 +108,56 @@ export const Properties = [
     image: House2,
     location: "2612 Macarthur Boulevard, Oakland",
     category: "apartments",
+  },
+];
+
+export const CustomerReviews = [
+  {
+    id: 1,
+    avater: Profile,
+    name: "John Doe",
+    job: "Software Engineer",
+    review:
+      "I had an amazing experience buying my first home with this real estate agency. The process was smooth, and the staff were incredibly helpful.",
+  },
+  {
+    id: 2,
+    avater: Profile,
+    name: "Jane Smith",
+    job: "Graphic Designer",
+    review:
+      "The agents were very professional and found the perfect apartment for me. I highly recommend this company for their excellent service.",
+  },
+  {
+    id: 3,
+    avater: Profile,
+    name: "Michael Brown",
+    job: "Marketing Manager",
+    review:
+      "Thanks to their expertise, I was able to sell my house quickly and at a great price. Their attention to detail is unmatched.",
+  },
+  {
+    id: 4,
+    avater: Profile,
+    name: "Emily Davis",
+    job: "Content Writer",
+    review:
+      "From start to finish, the team made the entire buying process stress-free. I love my new home and couldn't be happier!",
+  },
+  {
+    id: 5,
+    avater: Profile,
+    name: "Robert Wilson",
+    job: "Financial Analyst",
+    review:
+      "The customer service was exceptional, and they really listened to my needs. I found the perfect office space thanks to their help.",
+  },
+  {
+    id: 6,
+    avater: Profile,
+    name: "Linda Johnson",
+    job: "Project Manager",
+    review:
+      "I was impressed by their professionalism and dedication. They made the process of buying my vacation home an enjoyable experience.",
   },
 ];
