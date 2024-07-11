@@ -60,7 +60,7 @@ const FeatureCard = ({
         <Button
           btnName="View Details"
           btnStyle="bg-black w-full text-white py-1 rounded-2xl hover:bg-primary"
-          btnHandle={() => navigate(`/details`)}
+          btnHandle={() => navigate(`/${id}/details`)}
         />
       </div>
     </div>

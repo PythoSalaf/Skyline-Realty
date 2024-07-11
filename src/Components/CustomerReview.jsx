@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import ReviewCard from "./ReviewCard";
-import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
 import { CustomerReviews } from "./DummyData";
 
 function SampleNextArrow(props) {

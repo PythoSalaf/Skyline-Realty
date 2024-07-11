@@ -7,3 +7,5 @@ export { default as FeatureCard } from "../Components/FeatureCard";
 export { default as ReviewCard } from "../Components/ReviewCard";
 export { default as DreamApartment } from "../Components/DreamApartment";
 export { default as CustomerReview } from "../Components/CustomerReview";
+export { default as NewsFeeds } from "../Components/NewsFeeds";
+export { default as Footer } from "../Components/Footer";

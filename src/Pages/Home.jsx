@@ -4,6 +4,7 @@ import {
   DreamApartment,
   FeaturedProperty,
   Hero,
+  NewsFeeds,
   Steps,
 } from "../Components";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <FeaturedProperty />
       {/* <DreamApartment /> */}
       <CustomerReview />
+      <NewsFeeds />
     </div>
   );
 };
