@@ -13,6 +13,7 @@ module.exports = {
         mainWhite: "#FFF",
         green: "#60BB18",
         inactiveText: "#898D9E",
+        borderColor: "#dfdedd",
       },
       boxShadow: {
         custom: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
