@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Logo } from "../Assets";
 const Footer = () => {
   return (
-    <div className="w-full bg-secondary mt-11 py-5">
+    <div className="w-full bg-secondary  py-5">
       <div className="w-[96%] md:w-[94%] lg:w-[90%] mx-auto ">
         <div className="place-content-center grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-0 lg:grid-cols-4">
           <div>

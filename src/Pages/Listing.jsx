@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, FeatureCard } from "../Components";
-import Properties from "../Components/DummyData";
+import { Properties } from "../Components/DummyData";
 
 const Listing = () => {
   const [searchLocation, setSearchLocation] = useState("");
@@ -109,7 +109,7 @@ const Listing = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center text-xl text-red-500">
+          <div className="text-center text-xl md:text-2xl text-red-600">
             No properties found. Please try different search criteria.
           </div>
         )}

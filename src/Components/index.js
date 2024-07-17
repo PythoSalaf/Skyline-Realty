@@ -8,4 +8,6 @@ export { default as ReviewCard } from "../Components/ReviewCard";
 export { default as DreamApartment } from "../Components/DreamApartment";
 export { default as CustomerReview } from "../Components/CustomerReview";
 export { default as NewsFeeds } from "../Components/NewsFeeds";
+export { default as AgentCard } from "../Components/AgentCard";
+export { default as StarRating } from "../Components/StarRating";
 export { default as Footer } from "../Components/Footer";
