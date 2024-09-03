@@ -68,7 +68,7 @@ const FeaturedProperty = () => {
             <Button
               key={index}
               btnName={list}
-              btnStyle={`text-[17px] md:text-[20px] py-[5px] shadow-semiCustom w-fit px-4 capitalize rounded-xl ${
+              btnStyle={`text-[17px] md:text-[20px] py-[5px] shadow  w-fit px-4 capitalize rounded-xl ${
                 selectedCategory === list ? "bg-primary text-white" : ""
               }`}
               btnHandle={() => setSelectedCategory(list)}

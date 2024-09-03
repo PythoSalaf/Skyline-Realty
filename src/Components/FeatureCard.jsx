@@ -19,7 +19,7 @@ const FeatureCard = ({
   return (
     <div className="shadow-primaryCustom bg-white rounded-2xl w-[90%] mx-auto md:mx-0 md:w-full  p-3 ">
       <div className="relative w-full">
-        <img src={image} alt={`icon-${id}`} className="h-[200px] w-full" />
+        <img src={image[0]} alt={`icon-${id}`} className="h-[200px] w-full" />
         <div className="w-full px-4 flex items-center justify-between  bottom-[10px] absolute  ">
           <h4 className="w-full text-lg md:text-xl font-sans text-white">
             #{price}

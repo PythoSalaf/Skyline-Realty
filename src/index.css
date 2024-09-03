@@ -11,6 +11,27 @@ body {
   overflow-x: hidden;
 }
 
+.custom-thumb {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Add spacing between thumbnails */
+}
+
+.custom-thumb img {
+  width: 6rem; /* Adjust width */
+  height: 6rem; /* Adjust height */
+  cursor: pointer;
+}
+
+.slick-dots.custom-thumb {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots.custom-thumb li {
+  margin: 0;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

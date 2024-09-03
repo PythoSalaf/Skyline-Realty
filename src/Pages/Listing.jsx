@@ -31,7 +31,7 @@ const Listing = () => {
         <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl">
           Find Property
         </h2>
-        <div className="my-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-x-10 gap-y-4 lg:gap-y-0 bg-primary px-4 py-3 rounded-lg">
+        <div className="my-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-x-10 gap-y-4 lg:gap-y-0 bg-terciaryColor px-4 py-3 rounded-lg">
           <input
             type="text"
             placeholder="Enter location"
